@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+h1{
+    margin: 50px;
+    font-size: 48px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: rgb(53, 53, 53);
+}
+
+.term{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 0;
+    height: 70vh;
+}
+
+.t{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 430px;
+    margin: 20px;
+    margin-bottom: 0;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.t:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+}
+
+.text{
+    height: 300px;
+}
+
+.term1 .text{
+    background: url(../assets/animax.png);
+    background-size: cover;
+}
+
+@keyframes one{
+    0% {background: url(..//assets/animax.png);background-size: cover;}
+    25%{background: url(..//assets/astornaut.png);background-size: cover;}
+    50%{background: url(..//assets/kidzworld.png);background-size: cover;}
+    75%{background: url(..//assets/nat-geo.png);background-size: cover;}
+    100% {background: url(..//assets/animax.png);background-size: cover;}
+}
+
+.term1:hover .text{
+    animation-name: one;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+
+
+.text img{
+    width: 348px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot h4{
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.foot p{
+    margin-top: 0;
+}
+
+.foot button{
+    width: 100px;
+    background-color: #7055D3;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.foot button:hover{
+    background-color: #573fb1 ;
+}
